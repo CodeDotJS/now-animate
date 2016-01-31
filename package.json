@@ -28,7 +28,8 @@
   ],
   "dependencies": {
     "got": "^6.1.1",
-    "meow": "^3.7.0"
+    "meow": "^3.7.0",
+    "ansi-canvas": "0.0.2"
   },
   "devDependencies": {
     "ava": "*",
