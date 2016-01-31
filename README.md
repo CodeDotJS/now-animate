@@ -1,2 +1,23 @@
 # now-animate
-a command line tool written in node.js to animate your text in terminal.
+
+> Animate texts in Terminal.
+
+## Install
+
+```
+$ npm install --global now-animate
+```
+
+## Usage
+
+```
+$ now-animate 'YOUR TEXT'
+
+  Usage
+    $ now-animate 'YOUR TEXT'
+
+```
+
+## License
+
+MIT © [Rishi Giri](http://rishigiri.com)
