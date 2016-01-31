@@ -1,6 +1,6 @@
-var ac = require('ansi-canvas');
+var ansi = require('ansi-canvas');
 
-var canvas = ac(),
+var canvas = ansi(),
 
     i = 0,
 
