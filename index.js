@@ -36,7 +36,7 @@ function render() {
 
     termCtx.clearRect(0, 0, context.width, context.height);
 
-    i += 2;
+    i += 1;
 
     termCtx.drawImage(canvas, 0, 0, canvas.width, canvas.height);
 
