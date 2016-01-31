@@ -1,0 +1,24 @@
+{
+  "name": "now-animate",
+  "version": "1.0.0",
+  "description": "A small command line tool which allow user to animate texts in terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/now-animate.git"
+  },
+  "keywords": [
+    "\"animate\"",
+    "\"canvas\"",
+    "\"terminal\""
+  ],
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/now-animate/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/now-animate#readme"
+}
