@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 var ac = require('ansi-canvas');
 
 var argv = require('yargs')
