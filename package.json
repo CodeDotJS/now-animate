@@ -27,7 +27,9 @@
     "animate"
   ],
   "dependencies": {
-    "ansi-canvas": "0.0.2"
+    "ansi-canvas": "0.0.2",
+    "yargs":"*",
+    "canvas":"*"
   },
   "devDependencies": {
     "ava": "*",
