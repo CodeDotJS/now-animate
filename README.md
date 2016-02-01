@@ -11,10 +11,10 @@ $ npm install --global now-animate
 ## Usage
 
 ```
-$ now-animate 'YOUR TEXT'
+$ now-animate -w 'YOUR TEXT'
 
   Usage
-    $ now-animate 'YOUR TEXT'
+    $ now-animate -w 'YOUR TEXT'
 
 ```
 
