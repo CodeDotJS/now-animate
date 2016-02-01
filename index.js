@@ -28,7 +28,7 @@ function draw () {
 
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    context.fillStyle = 'green';
+    context.fillStyle = 'red';
 
     context.font = 'bold ' + ((10 + (i%4) * 0.4) + 'px') + ' ubuntu';
 
