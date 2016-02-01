@@ -23,6 +23,7 @@ $ now-animate -w 'YOUR TEXT'
 
 ```
 <img src="http://rishigiri.com/github/animate.gif" alt="">
+```
 
 ## License
 
