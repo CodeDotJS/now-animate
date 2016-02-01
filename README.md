@@ -20,6 +20,7 @@ $ now-animate -w 'YOUR TEXT'
 ```
 
 ## Screenshot
+
 <img src="http://rishigiri.com/github/red.png"></img>
 
 <img src="http://rishigiri.com/github/animate.gif"></img>
