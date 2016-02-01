@@ -14,10 +14,15 @@ $ npm install --global now-animate
 $ now-animate -w 'YOUR TEXT'
 
   Usage
-  
+
     $ now-animate -w 'YOUR TEXT'
 
 ```
+
+## Screenshot
+
+```
+<img src="http://rishigiri.com/github/animate.gif" alt="">
 
 ## License
 
