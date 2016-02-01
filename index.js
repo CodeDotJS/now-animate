@@ -1,10 +1,22 @@
-var ansi = require('ansi-canvas');
+#!/usr/bin/env node
 
-var canvas = ansi(),
+var ac = require('ansi-canvas');
+
+var argv = require('yargs')
+
+    .usage('Usage: $0 -w [Your Text]')
+
+    .demand(['w'])
+
+    .argv;
+
+
+var canvas = ac(),
 
     i = 0,
 
     context;
+
 
 function draw () {
 
@@ -16,17 +28,14 @@ function draw () {
 
     context.fillStyle = 'green';
 
-    context.font = 'bold ' + ((8 + (i%4) * 0.4) + 'px') + ' ubuntu';
+    context.font = 'bold ' + ((10 + (i%4) * 0.4) + 'px') + ' ubuntu';
 
     context.textBaseline = 'bottom';
 
-    context.fillText('N O D E . j s', 1, 10);
-
-    context.textBaseline = 'top';
-
-    context.fillText('. . . . . . . . . . . . . ', 1, 10);
+    context.fillText( argv.w, 25, 25);
 
 }
+
 
 function render() {
 
@@ -43,6 +52,7 @@ function render() {
     canvas.render();
 
 }
+
 
 setInterval(function(){
 
