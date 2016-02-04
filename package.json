@@ -1,6 +1,6 @@
 {
   "name": "now-animate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Animate texts in terminal",
   "license": "MIT",
   "repository": "CodeDotJS/now-animate",
@@ -9,7 +9,7 @@
     "email": "rushforlinux@gmail.com",
     "url": "rishigiri.com"
   },
-  "bin": "index.js",
+  "bin": "cli.js",
   "engines": {
     "node": ">=4"
   },
@@ -17,7 +17,7 @@
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "cli.js"
   ],
   "keywords": [
     "cli-app",
