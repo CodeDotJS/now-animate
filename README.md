@@ -15,7 +15,11 @@ $ now-animate -w 'YOUR TEXT'
 
   Usage
 
-    $ now-animate -w 'YOUR TEXT'
+    $ now-animate
+
+    	Options:
+    	
+  		-w  Enter any word or a "sentence"  
 
 ```
 
