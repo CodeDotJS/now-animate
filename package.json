@@ -1,6 +1,6 @@
 {
   "name": "now-animate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Animate texts in terminal",
   "license": "MIT",
   "repository": "CodeDotJS/now-animate",
@@ -24,11 +24,13 @@
     "cli",
     "terminal",
     "text",
+    "colors",
     "animate"
   ],
   "dependencies": {
     "ansi-canvas": "0.0.2",
     "yargs": "*",
+    "colors": "*",
     "canvas": "*"
   },
   "devDependencies": {
