@@ -4,11 +4,19 @@
 
 var ac = require('ansi-canvas');
 
+var colors = require('colors');
+
+colors.setTheme({
+	info: ('cyan')
+});
+
 var argv = require('yargs')
 
-    .usage('Usage: $0 -w [Your Text]')
+    .usage('\nUsage: $0 -w [Your Text]'.info)
 
     .demand(['w'])
+
+    .describe('w', 'Enter any word or a "sentence"')
 
     .argv;
 
